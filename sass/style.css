@@ -544,6 +544,7 @@ a.active {
   height: 600px;
   width: 100vw;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .myprojects .project {
