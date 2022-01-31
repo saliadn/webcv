@@ -250,6 +250,10 @@ hr {
   margin-top: 30px;
 }
 
+.overlay-content i {
+  margin-right: 10px;
+}
+
 .overlay a {
   padding: 8px;
   text-decoration: none;
