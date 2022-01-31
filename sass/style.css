@@ -973,12 +973,64 @@ h2 span {
   .overlay a {
     font-size: 20px;
   }
-  .contactform .socials {
+  .contactform .input-icon:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 1 / span 1 / span 2;
+  }
+  .contactform .input-icon:nth-child(2) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 2 / 1 / span 1 / span 2;
+  }
+  .contactform .input-icon:nth-child(3) {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 3 / 1 / span 1 / span 2;
+  }
+  .contactform .input-icon:nth-child(4) {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 4 / 1 / span 1 / span 2;
+  }
+  .contactform .input-icon:nth-child(5) {
     -ms-grid-row: 5;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: 5 / 1 / span 1 / span 2;
+  }
+  .contactform .input-icon:nth-child(5) textarea {
+    resize: none;
+  }
+  .contactform button.light {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 6 / 1 / span 1 / span 2;
+  }
+  .contactform button.submit {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 7 / 1 / span 1 / span 2;
+  }
+  .contactform .socials {
+    -ms-grid-row: 8;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 8 / 1 / span 1 / span 2;
     border-radius: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
