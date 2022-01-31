@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="sass/style.css">
+   <link rel="stylesheet" href="sass/all.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+   <title>AYDIN Salih — WebCV</title>
+</head>
+<body>
+   <div class="slide one" id="aboutme">
+      <div class="left-color-background"></div>
+      <div class="container">
+         <div class="card">
+            <img src="img/memoji.jpg" alt="Photo de profil">
+            <h2>AYDIN<br>Salih</h2>
+            <div class="divider"></div>
+            <h3 class="metier">Développeur web</h3>
+            <div class="socials">
+               <a href="https://instagram.com/aydinstudio" target="_blank"><i class="fab fa-instagram-square"></i></a>
+               <a href="https://www.linkedin.com/in/aydinsalih/" target="_blank"><i class="fab fa-linkedin"></i></a>
+               <a href="https://github.com/saliadn" target="_blank"><i class="fab fa-git-square"></i></a>
+            </div>
+         </div>
+         <div class="infos">
+            <h1>Bonjour ! </h1>
+            <p>Bienvenue sur mon <strong>WebCV.</strong></p>
+            <p>Je m'appelle Salih, je suis actuellement en formation pour devenir <strong>développeur web.</strong></p>
+            <p>Vous trouverez ici mon parcours durant ces dernières années et mes motivations.</p>
+            <p><strong>Bonne visite à vous ! 👀</strong></p>
+            <a href="#parcours"><button>Voir mon parcours</button></a>
+            <a href="#projets"><button class="light">Voir mes projets</button></a>
+         </div>
+         <div class="buttons">
+            <a href="#parcours"><button>Mon Parcours</button></a>
+            <a href="#projets"><button class="light">Mes projets</button></a>
+         </div>
+      </div>
+      <div class="scroll-down">
+         <h4>Scroll down</h4>
+         <i class="fas fa-chevron-down"></i>
+      </div>
+   </div>
+   <header>
+      <div class="name">
+         <div class="square"></div>
+         <h2>AYDIN Salih</h2>
+         <h3 class="metier">Développeur web</h3>
+      </div>
+      <hr>
+      <nav>
+         <ul id="nav">
+            <li><a href="#aboutme"  class="btn active"  draggable="false">  à propos de moi</a></li>
+            <li><a href="#parcours"   class="btn"         draggable="false">  Parcours</a></li>
+            <li><a href="#projets"  class="btn"         draggable="false">  Projets</a></li>
+            <li><a href="#contact"  class="btn"         draggable="false">  Contact</a></li>
+         </ul>
+      </nav>
+      <span class="openmenu" onclick="openNav()">&#9776;</span>
+   </header>
+
+   <div class="slide two" id="parcours">
+      <div class="parcours-desktop">
+         <h2>Parcours</h2>
+         <br>
+         <section class="parcours_1">
+            <i class="fas fa-chevron-up"></i>
+            <div class="dot-date">
+               <h5 class="date">Sept. 2021 / Sept. 2022</h5>
+               <span class="dot"></span>
+            </div>
+            <h2>Metz Numeric School</h2>
+            <h4>Développeur web et mobile</h4>
+         </section>
+         <section class="parcours_2">
+            <div class="dot-date">
+               <span class="dot"></span>
+               <h5 class="date">S'instruire par soi même</h5>
+            </div>
+            <h2>Autoditacte</h2>
+            <h4>Développement web et infographie</h4>
+         </section>
+         <section class="parcours_3">
+            <div class="dot-date">
+               <h5 class="date">2015 / 2018</h5>
+               <span class="dot"></span>
+            </div>
+            <h2>Lycée Louis de Cormontaigne</h2>
+            <h4>Systèmes Numériques</h4>
+         </section>
+      </div>
+   </div>
+
+   <div class="slide three" id="projets">
+      <h2>Mes projets <span>scroll to left</span></h2>
+      <!-- <img src="img/swipe.png" alt="Swipe"> -->
+      <div class="myprojects">
+         <div class="project">
+            <div class="header-project">
+               <img src="img/ifruit.png" alt="iFruit Show">
+               <div class="gradient"></div>
+            </div>
+            <div class="project-info">
+               <h2>iFruit 13</h2>
+               <p>Site web fictif imitant l'interface du site Apple avec le monde de Grand Theft Auto V.</p>
+            </div>
+            <a href="https://saliadn.github.io/bases_web/pages/fil_rouge/" target="_blank"><button><i class="fas fa-external-link"></i>Voir le site</button></a>
+         </div>
+         <div class="project">
+            <div class="header-project">
+               <img src="img/instagram.png" alt="Instagram Profile">
+               <div class="gradient"></div>
+            </div>
+            <div class="project-info">
+               <h2>AYDIN Studio</h2>
+               <p>Mon instagram ou je partage des astuces et parfois mon quotidien, mes réalisations graphiques et sites web.</p>
+            </div>
+            <a href="https://instagram.com/aydinstudio" target="_blank"><button><i class="fab fa-instagram"></i>Me suivre</button></a>
+         </div>
+         <div class="project">
+            <div class="header-project">
+               <img src="img/deliciousburgers.png" alt="Lapin">
+               <div class="gradient"></div>
+            </div>
+            <div class="project-info">
+               <h2>Delicious Burgers</h2>
+               <p>Fast-food fictif avec un système de filtration pour les types de produits. Ne venez pas ici quand vous avez faim...</p>
+            </div>
+            <a href="https://saliadn.github.io/fastfood" target="_blank"><button><i class="fas fa-hamburger"></i>J'ai faim !</button></a>
+         </div>
+         
+      </div>
+   </div>
+   <div class="slide four" id="contact">
+      <h2>Me contacter</h2>
+      <div class="contactform">
+         <form action="#">
+            <div class="formulaire">
+               <div class="input-icon">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Nom" required>
+               </div>
+               <div class="input-icon">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Prénom" required>
+               </div>
+               <div class="input-icon">
+                  <i class="fas fa-at"></i>
+                  <input type="email" placeholder="Email" required>
+               </div>
+               <div class="input-icon">
+                  <i class="fas fa-mobile"></i>
+                  <input type="tel" placeholder="Mobile" required>
+               </div>
+               <div class="input-icon textarea">
+                  <i class="fas fa-comment-alt-dots"></i>
+                  <textarea placeholder="Message" required></textarea>
+               </div>
+               <button class="light reset"><i class="fas fa-eraser"></i>Effacer</button>
+               <button class="submit"><i class="fas fa-paper-plane"></i>Envoyer</button>
+               <div class="socials">
+                  <h3>Réseaux sociaux :</h4>
+                  <a href="https://instagram.com/aydinstudio" target="_blank">
+                     <i class="fab fa-instagram"></i>aydinstudio
+                  </a>
+                  <a href="https://instagram.com/saliadn" target="_blank">
+                     <i class="fab fa-instagram"></i>saliadn
+                  </a>
+                  <p>Je réponds rapidement sur Instagram.</p>
+               </div>
+            </div>
+         </form>
+      </div>
+   </div>
+   <footer>
+      <p>© 2022 • AYDIN Studio</p>
+      <p>Websited designed by <a href="https://instagram.com/saliadn" target="_blank">@saliadn</a></p>
+   </footer>
+
+   <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#parcours" onclick="closeNav();">Parcours</a>
+        <a href="#projets" onclick="closeNav();">Projets</a>
+        <a href="#contact" onclick="closeNav();">Contact</a>
+        <a href="">Socials</a>
+        <a href="instagram://user?username=saliadn" onclick="closeNav()">@saliadn</a>
+      </div>
+    </div>
+
+   <!-- <script src="js/currentyear.js" defer></script> -->
+   <script src="js/script.js"></script>
+   <script>
+      // let currentYear = new Date().getFullYear();
+      // document.getElementById('age').innerHTML = currentYear - 1999;
+
+      // active menu
+      var header = document.getElementById("nav");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+         btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";});}
+   </script>
+</body>
+</html>
